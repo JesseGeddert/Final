@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    quadratic.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    quadratic.h
 
 FORMS += \
         mainwindow.ui
